@@ -1,0 +1,90 @@
+ 
+/* 
+Navigation based menu system
+*/
+nav{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    background-color: #ADD8E6;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 9px 19px;
+    list-style: none;
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-size: 40px;
+}
+nav ul li a:hover{
+    color:#FFCCCB;
+}
+
+.paragraph{
+    padding: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+.front-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 45px;
+    background-color: #ADD8E6;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    padding-left: 5px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.front-page h1{
+    font-size: 40px;
+}
+.front-page h2{
+    font-size:30px;
+}
+.front-page p{
+    font-size:30px;
+
+}
+.button a{
+    text-decoration: none;
+    border:black;
+    border-radius: 750px;
+    letter-spacing: 2px;
+    color: black;
+    position: relative;
+    font-size: 25px;
+    padding: 16px 28px;
+    background-color: aliceblue;
+}
+.front-page a:hover{
+    background-color: #FFCCCB   ;
+}
+.contents{
+    padding-bottom: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+.front-page-caption{
+    width: 80%;
+    text-align: center;
+}
